@@ -70,6 +70,7 @@ class User extends Model
 $user = User::find(1); 		                                // Model
 $user->facebook = 'https://www.facebook.com/MoamenEltouny';     // Set Facebook URL
 $user->facebook->click();                                       // Increment clicks count
+echo $user->facebook->clicks;                                   // Display clicks count
 echo $user->facebook->url;                                      // Display Facebook URL
 ```
 
