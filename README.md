@@ -50,7 +50,12 @@ class User extends Model
 {
     use HasURLs;
     
-    protected $URLsAttibutes = ['facebook'];
+    /**
+     * URLs Attributes
+     *
+     * @var array
+     */
+    protected $URLsAttributes = ['facebook'];
     ...
 }
 ```
